@@ -11,3 +11,17 @@ An interactive Excel dashborad was created to visualize the findings.
 - slicers
 - Dashboard design
 
+## Key Insights
+- Total Employees Analysis
+- Attrition Count & Attrition Rate
+- Department-wise Attrition Analysis
+- Employee Gender Distribution
+- Average Salary By Department
+- Job Satisfaction Attrition Analysis
+
+## Dashboard Preview
+- The dashboard screenshot is included in this respitory.
+
+## Outcome
+This Project demonstrate skills in data analysis, SQL querying, dashboard creation, KPI reporting, and data visualization using Excel.
+
