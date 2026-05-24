@@ -1,0 +1,43 @@
+## Total Employees
+
+SELECT COUNT(*) AS total_employees
+FROM hr_attrition;
+
+
+## Total Employees Left Company
+
+SELECT COUNT(*) AS attrition_count
+FROM hr_attrition
+WHERE attrition='Yes';
+
+
+## Department Wise Attrition
+
+SELECT department,COUNT(*) AS employees_left
+FROM hr_attrition
+WHERE attrition='Yes'
+GROUP BY department;
+
+
+## Average Salary By Department
+
+SELECT department,
+AVG(salary) AS average_salary
+FROM hr_attrition
+GROUP BY department;
+
+
+## Overtime Employees Attrition
+
+ SELECT overtime, 
+COUNT(*) AS attriton_count
+FROM hr_attrition
+WHERE attrition='Yes'
+GROUP BY overtime;
+
+
+## Highest Salary Employee
+
+SELECT name,department,salary,
+MAX(salary) AS highest_salary_employee
+FROM hr_attrition;
